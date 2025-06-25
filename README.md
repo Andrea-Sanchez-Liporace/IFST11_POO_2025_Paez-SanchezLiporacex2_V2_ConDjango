@@ -1,0 +1,1 @@
+# IFST11_POO_2025_Paez-SanchezLiporacex2_V2_ConDjango
