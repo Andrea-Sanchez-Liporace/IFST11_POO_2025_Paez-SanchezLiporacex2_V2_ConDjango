@@ -1,0 +1,21 @@
+# Importo todas las funciones disponibles en los distintos archivos de servicios
+from .usuario import registrar_usuario, buscar_usuario_por_dni, mostrar_usuarios
+from .perro import cargar_perro, eliminar_perro, sugerir_perros, mostrar_perros_disponibles, mostrar_perros_por_estado
+from .adopcion import reservar_perro, confirmar_adopcion
+
+# Declaro explícitamente qué funciones están disponibles al importar
+__all__ = [
+    # Funciones relacionadas con usuarios
+    "registrar_usuario",
+    "buscar_usuario_por_dni",
+    "mostrar_usuarios",
+    # Funciones relacionadas con perros
+    "cargar_perro",
+    "eliminar_perro",
+    "sugerir_perros",
+    "mostrar_perros_disponibles",
+    "mostrar_perros_por_estado",
+    # Funciones relacionadas con adopciones
+    "reservar_perro",
+    "confirmar_adopcion",
+]
